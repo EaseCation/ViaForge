@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "package": "com.viaversion.viaforge.mixin",
+  "client": [
+    "MixinClientPacketListener",
+    "MixinDebugScreenOverlay",
+    "MixinDirectJoinServerScreen",
+    "MixinEditServerScreen",
+    "MixinJoinMultiplayerScreen",
+    "MixinServerData",
+    "MixinTitleScreen",
+    "connect.MixinClientHandshakePacketListenerImpl",
+    "connect.MixinConnection",
+    "connect.MixinConnection_1",
+    "connect.MixinConnectScreen_1",
+    "connect.MixinServerStatusPinger"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
